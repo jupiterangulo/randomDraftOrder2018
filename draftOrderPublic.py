@@ -4,10 +4,13 @@ import time
 
 # create function for Draft Order 
 def assignDraftOrder():
+  
   # insert players names here 
   players = ['Bob', 'Ray', 'Fred', 'Fred2']
+  
   # list out players as they appear in the fantasy football league 
   print ('The order of players as they joined is:')
+  
   for i in range(0,10):
     j = i + 1
     print ("{}. {}".format(j, players[i]))
